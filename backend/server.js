@@ -6,9 +6,9 @@ import router from './router/route.js'
 import cookieParser from 'cookie-parser'
 
 const app = express()
-
+app.use(cors({origin: true, credentials: true}));
 app.use(express.json())
-app.use(cors())
+
 app.use(morgan('tiny'))
 app.disable('x-powered-by')
 app.use(cookieParser())

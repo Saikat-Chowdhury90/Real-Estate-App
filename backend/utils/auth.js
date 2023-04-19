@@ -3,13 +3,13 @@ import User from "../model/UserModel.js";
 
 export const isAuthenticated = async (req,res,next) => {
     try {
-
+        
         const { token } = req.cookies
 
 
         if(!token) return res.status(401).json("Please login")
         // if(!token) return next(new Error("error"))
-        console.log(token);
+        
         const decodedData = Jwt.verify(token, "taylorswift")
 
         req.user = await User.findOne({username:decodedData})
