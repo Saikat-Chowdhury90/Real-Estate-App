@@ -1,0 +1,151 @@
+.cc{
+    top: -80px;
+}
+.low-bright
+{
+    position: absolute;
+    background-image: linear-gradient(black 40%,white 20%,black 40%);
+
+    opacity: 0.6;
+    top: 0rem;
+    z-index: 20;
+    width: 100vw;
+    height: 665px;
+}
+.shadow
+{
+    position: absolute;
+    /* background-image: linear-gradient(black,white); */
+    opacity: 1;
+    top: 0rem;
+    z-index: 20;
+    width: 100vw;
+    height: 665px;
+}
+.shadow h1{
+    position: relative;
+    top: 40rem;
+    color: white;
+    left: 2rem;
+}
+.shadow p
+{
+    position: relative;
+    top: 40rem;
+    color: white;
+    left: 2rem;
+}
+
+/* media query */
+
+
+@media only screen and (max-width: 25em) {
+    .shadow
+    {
+        height: 50.5rem;
+        
+    }
+    .shadow p{
+        top: 50%;
+        left: 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+        text-overflow: ellipsis;
+    }
+    .shadow h1
+    {
+        top: 50%;
+        left: 0;
+        padding: 1rem;
+    }
+    .cc
+    {
+        height: 57.5rem;
+        width: 100vw;
+        object-fit: contain;
+    }
+    
+    .low-bright{
+        height: 50.5rem;
+        width: 100vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 37.5em) {
+    .shadow
+    {
+        height: 50.5rem;
+        
+    }
+    .shadow p{
+        top: 50%;
+        left: 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+        text-overflow: ellipsis;
+    }
+    .shadow h1
+    {
+        top: 50%;
+        left: 0;
+        padding: 1rem;
+    }
+    .cc
+    {
+        height: 57.5rem;
+        width: 100vw;
+        object-fit: contain;
+    }
+    
+    .low-bright{
+        height: 50.5rem;
+        width: 100vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 56.25em) {
+    .shadow
+    {
+        height: 50.5rem;
+        
+    }
+    .shadow p{
+        top: 50%;
+        left: 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+        text-overflow: ellipsis;
+    }
+    .shadow h1
+    {
+        top: 50%;
+        left: 0;
+        padding: 1rem;
+    }
+    .cc
+    {
+        height: 57.5rem;
+        width: 100vw;
+        object-fit: contain;
+    }
+    
+    .low-bright{
+        height: 50.5rem;
+        width: 100vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 75em) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 112.5em) {
+
+}

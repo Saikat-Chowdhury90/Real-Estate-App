@@ -1,0 +1,33 @@
+.landing-wrapper 
+{
+    margin-left: 1rem;
+}
+.landing-content 
+{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: auto auto auto;
+}
+.landing-content-card
+{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+.landing-card-image
+{
+    width: inherit;
+    height: 200px;
+}
+.landing-card-image > img
+{
+    width: inherit;
+    height: 200px;
+}
+.landing-card-details 
+{
+    margin-left: 1rem;
+}

@@ -1,0 +1,177 @@
+.navbar
+{
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+    background-color: transparent;
+    position: fixed;
+    z-index: 22;
+    left: 8rem;
+    top: -5px;
+    padding: 5px;
+    width: 100vw;
+    border-bottom: 1px solid white;
+    
+}
+.active
+{
+    background-color: white;
+    color: black;
+}
+
+.logo > h1{
+    top: -10px;
+    position: relative;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    
+    flex-flow: row nowrap;
+    position: relative;
+    top: 1rem;
+    right: -47em;
+}
+.nav-ul > li{
+    padding: 0 1rem 0 ;
+}
+.search
+{
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+}
+.search-active
+{
+    border: 1px solid black;
+}
+nav > div
+{
+    position: relative;
+    top: 1rem;
+}
+.btn
+{
+    padding: 10px;
+    border-radius: 10px;
+    
+    background-color: transparent;
+    width:80px;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+
+}
+.btn-inactive
+{
+    border: 1px solid white;
+    color: white;
+}
+.btn-acti🇻e {
+    color: black;
+    border: 1px solid black;
+}
+.categoryList
+{
+    display: flex;
+    
+    color: white;
+    background-color: transparent;
+    position: relative;
+    z-index: 21;
+    left: 7.2rem;
+
+    width: 100vw;
+    border-bottom: 1px solid white;
+    top: 10rem;
+    overflow: hidden;
+    
+}
+.category-ul
+{
+    list-style: none;
+    display: flex;
+    left: -35px;
+    
+    position: relative;
+   
+    
+    
+}
+.category-ul > li
+{
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+.category-ul > li:hover
+{
+    color: antiquewhite;
+}
+
+/* media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 25em) {
+    .categoryList{
+        display: none;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .navbar
+    {
+        border: none;
+        padding-bottom: 1.5rem;
+        
+    }
+    .logo
+    {
+        font-size: 1.24em;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 37.5em) {
+    .categoryList{
+        display: none;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .navbar
+    {
+        border: none;
+        padding-bottom: 1.5rem;
+        
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 56.25em) {
+    .categoryList{
+        display: none;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .navbar
+    {
+        border: none;
+        padding-bottom: 1.5rem;
+        
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 75em) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 112.5em) {
+
+}
